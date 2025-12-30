@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="100dp"
+    android:viewportWidth="160"
+    android:viewportHeight="100">
+    <!-- 面具主体 -->
+    <path
+        android:fillColor="#8B0000"
+        android:pathData="M80,10 Q140,10 150,50 Q145,80 80,95 Q15,80 10,50 Q20,10 80,10 Z"/>
+    <!-- 左眼孔 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M35,45 Q35,35 50,35 Q65,35 65,45 Q65,55 50,55 Q35,55 35,45 Z"/>
+    <!-- 右眼孔 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M95,45 Q95,35 110,35 Q125,35 125,45 Q125,55 110,55 Q95,55 95,45 Z"/>
+    <!-- 眼孔装饰左 -->
+    <path
+        android:fillColor="#FFD700"
+        android:strokeWidth="2"
+        android:strokeColor="#FFD700"
+        android:pathData="M30,42 Q35,30 50,28 Q65,30 70,42"/>
+    <!-- 眼孔装饰右 -->
+    <path
+        android:fillColor="#FFD700"
+        android:strokeWidth="2"
+        android:strokeColor="#FFD700"
+        android:pathData="M90,42 Q95,30 110,28 Q125,30 130,42"/>
+    <!-- 中间装饰 -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M75,55 L80,45 L85,55 L80,50 Z"/>
+    <!-- 羽毛装饰 -->
+    <path
+        android:fillColor="#4B0082"
+        android:pathData="M70,15 Q60,5 55,0 Q65,8 75,10 Z"/>
+    <path
+        android:fillColor="#8B008B"
+        android:pathData="M80,12 Q80,0 85,0 Q85,5 80,12 Z"/>
+    <path
+        android:fillColor="#4B0082"
+        android:pathData="M90,15 Q100,5 105,0 Q95,8 85,10 Z"/>
+</vector>

@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="60dp"
+    android:viewportWidth="80"
+    android:viewportHeight="60">
+    <!-- 鼻子主体 -->
+    <path
+        android:fillColor="#2C2C2C"
+        android:pathData="M40,5 Q65,5 70,25 Q70,45 40,55 Q10,45 10,25 Q15,5 40,5 Z"/>
+    <!-- 鼻孔左 -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M25,25 Q25,35 30,35 Q35,35 35,25 Q35,20 30,20 Q25,20 25,25 Z"/>
+    <!-- 鼻孔右 -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M45,25 Q45,35 50,35 Q55,35 55,25 Q55,20 50,20 Q45,20 45,25 Z"/>
+    <!-- 高光 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"
+        android:pathData="M30,12 Q40,8 50,12 Q45,18 40,16 Q35,18 30,12 Z"/>
+</vector>

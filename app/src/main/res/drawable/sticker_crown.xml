@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="100dp"
+    android:viewportWidth="180"
+    android:viewportHeight="100">
+    <!-- 皇冠主体 -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M10,95 L10,50 L35,70 L60,30 L90,55 L120,30 L145,70 L170,50 L170,95 Z"/>
+    <!-- 皇冠底部装饰 -->
+    <path
+        android:fillColor="#DAA520"
+        android:pathData="M10,85 L170,85 L170,95 L10,95 Z"/>
+    <!-- 左宝石 -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M45,75 m-8,0 a8,6 0 1,1 16,0 a8,6 0 1,1 -16,0"/>
+    <!-- 中间宝石 -->
+    <path
+        android:fillColor="#0000FF"
+        android:pathData="M90,70 m-10,0 a10,8 0 1,1 20,0 a10,8 0 1,1 -20,0"/>
+    <!-- 右宝石 -->
+    <path
+        android:fillColor="#00FF00"
+        android:pathData="M135,75 m-8,0 a8,6 0 1,1 16,0 a8,6 0 1,1 -16,0"/>
+    <!-- 尖顶装饰 -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M60,30 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M90,55 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M120,30 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <!-- 高光 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M30,60 L35,55 L40,60 L35,65 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M140,60 L145,55 L150,60 L145,65 Z"/>
+</vector>

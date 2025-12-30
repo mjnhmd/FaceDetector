@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="120dp"
+    android:viewportWidth="180"
+    android:viewportHeight="120">
+    <!-- 帽檐 -->
+    <path
+        android:fillColor="#4A90D9"
+        android:pathData="M10,100 Q90,85 170,100 L170,110 Q90,95 10,110 Z"/>
+    <!-- 帽身 -->
+    <path
+        android:fillColor="#5BA0E9"
+        android:pathData="M30,100 Q30,40 90,20 Q150,40 150,100 Z"/>
+    <!-- 帽子装饰带 -->
+    <path
+        android:fillColor="#3A80C9"
+        android:pathData="M35,90 L145,90 L145,100 L35,100 Z"/>
+    <!-- 帽顶按钮 -->
+    <path
+        android:fillColor="#3A80C9"
+        android:pathData="M90,20 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0"/>
+    <!-- 高光 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M50,50 Q70,35 90,45 Q70,50 50,50"/>
+</vector>

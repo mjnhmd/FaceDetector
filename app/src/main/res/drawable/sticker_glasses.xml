@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportWidth="200"
+    android:viewportHeight="80">
+    <!-- 左镜片 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#333333"
+        android:strokeWidth="4"
+        android:pathData="M20,40 A30,25 0 1,1 80,40 A30,25 0 1,1 20,40"/>
+    <!-- 右镜片 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#333333"
+        android:strokeWidth="4"
+        android:pathData="M120,40 A30,25 0 1,1 180,40 A30,25 0 1,1 120,40"/>
+    <!-- 鼻梁 -->
+    <path
+        android:strokeColor="#333333"
+        android:strokeWidth="4"
+        android:pathData="M80,40 Q100,50 120,40"/>
+    <!-- 左镜腿 -->
+    <path
+        android:strokeColor="#333333"
+        android:strokeWidth="3"
+        android:pathData="M20,35 L5,30"/>
+    <!-- 右镜腿 -->
+    <path
+        android:strokeColor="#333333"
+        android:strokeWidth="3"
+        android:pathData="M180,35 L195,30"/>
+    <!-- 镜片反光 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M30,30 Q40,25 45,35 Q35,32 30,30"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M130,30 Q140,25 145,35 Q135,32 130,30"/>
+</vector>

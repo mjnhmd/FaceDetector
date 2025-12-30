@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">人脸贴纸</string>
+    <string name="face_not_detected">未检测到人脸</string>
+    <string name="face_detected">检测到人脸</string>
+    <string name="switch_camera">切换摄像头</string>
+    <string name="debug_mode">调试模式</string>
+    <string name="select_sticker">选择贴纸</string>
+    <string name="camera_permission_required">需要相机权限才能使用此功能</string>
+    <string name="grant_permission">授予权限</string>
+</resources>
